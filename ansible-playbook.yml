@@ -13,6 +13,7 @@
     command : sudo systemctl start docker
     
   - name: Deploy Docker Container
-    command: docker run -itd -p 8086:8081 vikuldocker/banking-mentor:1.0
+    command: docker run -itd -p 8087:8081 tamilsed/finance-me:2.0
+
 
   
